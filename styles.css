@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
    
-    max-width: 5000px;
+    max-width: auto;
 } 
 
    
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/src/img/img.png");
+    background-image: url("img/img.png");
     background-repeat: no-repeat;
     background-size: 100%, 100%, 100%;
     display: flex;
@@ -44,6 +44,7 @@ button {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 button:hover {
